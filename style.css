@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+.logo{
+    font-size: 30px;
+    line-height: 80px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4d9aad;
+    width: 100%;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 100px;
+}
+.container-list{
+    display: flex;
+    gap: 30px;
+}
+.project{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+   
+}
+.my-project{
+    color: #4d9aad;
+    padding: 0 100px;
+}
+
+.par{
+    color: #343A40;
+    font-weight: 500;
+    font-size: 1.2em;
+    
+}
+.first-image{
+    padding: 0 50px;
+
+}
+.design{
+    background-color: #ebebeb;
+    padding: 0 100px;
+}
+.design-contact-project{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+
+.design-project{
+    color: #157293;
+}
+.contact{
+    background-color: #157293;
+    color: white;
+    text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: bold;
+     padding: 10px 25px;
+     border-radius: 5px;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.image1 img{
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.image2 img{
+    border-radius: 10px;
+}
+.image3 img{
+    border-radius: 10px;
+}
+.image4 img{
+    border-radius: 10px;
+}
+.image5 img{
+    border-radius: 10px;
+}
+.image6 img{
+    border-radius: 10px;
+}
+
+.contact-me{
+    background-color: #4d9aad;
+}
+.image7{
+    float: right;
+}
+.enquiry{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:50px 100px 0 100px;
+
+}
+.words{
+    color: white;
+}
+
+.contact-me1{
+    background-color: white;
+    text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: bold;
+     padding: 10px 25px;
+     border-radius: 10px; 
+     padding-right: 20px; 
+}
+
+.call-me{
+    background-color: #157293;
+    color: white;
+    text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: bold;
+     padding: 10px 25px;
+     border-radius: 10px;  
+} 
+
+.info{
+    padding-top: 40px;
+    background-color: #0078AA;
+    height: 200px;
+    color: white;
+    line-height: 2;
+}
+.promt-mail h5 
+h4{
+    padding: 0 46%;
+    
+}
+.brandicon{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bellz{
+display: flex;
+justify-content: space-evenly;
+padding-top: 20px;
+padding-left: 45%;
+padding-right: 45%;
+}
+
+.copyright p {
+    padding-top: 30px;
+    font-size: x-small;
+    padding: 0 46%;
+
+}
+    
+
