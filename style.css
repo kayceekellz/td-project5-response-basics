@@ -46,12 +46,13 @@
     
 }
 .first-image{
-    padding: 0 50px;
+    padding: 0 100px;
 
 }
 .design{
     background-color: #ebebeb;
-    padding: 0 100px;
+    padding: 50px 100px;
+
 }
 .design-contact-project{
     display: flex;
@@ -79,7 +80,6 @@
     flex-wrap: wrap;
     padding-top: 30px;
     padding-bottom: 30px;
-    border-radius: 10px;
     margin-bottom: 50px;
 }
 .image1 img{
@@ -107,37 +107,64 @@
 }
 .image7{
     float: right;
+    padding: 0 100px;
 }
 .enquiry{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding:50px 100px 0 100px;
-
+    padding: 50px 0px 50px 100px;
 }
 .words{
     color: white;
+    
 }
-
-.contact-me1{
+input[id=contactbtn]{
     background-color: white;
     text-decoration: none;
      border: 2px solid transparent;
      font-weight: bold;
-     padding: 10px 25px;
-     border-radius: 10px; 
+     padding: 10px 10px;
+     border-radius: 10px;
      padding-right: 20px; 
+     margin: 0 100% 0 340%;
+     
+     
 }
-
+input[id=callbtn]{
+    background-color: #157293;
+    color: white;
+    text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: bold;
+     padding: 10px 10px;
+     border-radius: 10px; 
+     margin: 0 100% 0 270%;  
+}
+/* {
+/* .contact-me1{
+    background-color: white;
+    text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: bold; */
+     /* padding: 10px 10px; */
+     /* border-radius: 10px;  */
+     /* padding-right: 20px;  */
+ */
+/* 
 .call-me{
     background-color: #157293;
     color: white;
     text-decoration: none;
      border: 2px solid transparent;
      font-weight: bold;
-     padding: 10px 25px;
+     padding: 10px 10px;
      border-radius: 10px;  
-} 
+}  */
+
+.image8{
+    padding: 0 100px;
+}
 
 .info{
     padding-top: 40px;
@@ -146,31 +173,32 @@
     color: white;
     line-height: 2;
 }
-.promt-mail h5 
+
+h5{
+    padding: 0 615px;
+}
 h4{
-    padding: 0 46%;
-    
+    padding: 0 556px;
 }
 .brandicon{
     height: 20px;
     display: flex;
     justify-content: space-between;
+    /* color: white; */
 
 }
 
 .bellz{
 display: flex;
 justify-content: space-evenly;
-padding-top: 20px;
-padding-left: 45%;
-padding-right: 45%;
+padding: 30px 600px ;
+
 }
 
 .copyright p {
     padding-top: 30px;
     font-size: x-small;
     padding: 0 46%;
-
 }
     
 
