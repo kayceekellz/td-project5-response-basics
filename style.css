@@ -5,7 +5,15 @@
     list-style: none;
     box-sizing: border-box;
     font-family: Verdana, sans-serif;
+
 }
+body{
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    /* position: relative;
+    bottom: 0; */
+    }
 
 .logo{
     font-size: 30px;
@@ -25,30 +33,45 @@
 }
 .container-list{
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    width: 50%;
+
+}
+.ham img {
+    width: 5%;
+    /* display: none; */
 }
 .project{
-    padding-top: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
-   
+    /* width: 100px; */
+    /* padding: 0 100px ; */
+    padding-top: 80px;
+    padding-bottom: 40px;
+
 }
 .my-project{
     color: #4d9aad;
     padding: 0 100px;
+    width: 50%;
 }
 
 .par{
     color: #343A40;
     font-weight: 500;
     font-size: 1.2em;
-    
 }
-.first-image{
-    padding: 0 100px;
 
+.first-image {
+    width: 40%;
 }
+.first-image img{
+    width: 400px;
+    height: 400px;
+
+} 
+
 .design{
     background-color: #ebebeb;
     padding: 50px 100px;
@@ -57,7 +80,7 @@
 .design-contact-project{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     
 }
 
@@ -68,10 +91,15 @@
     background-color: #157293;
     color: white;
     text-decoration: none;
-     border: 2px solid transparent;
+     /* border: 2px solid transparent; */
      font-weight: bold;
-     padding: 10px 25px;
+     padding: 5px;
      border-radius: 5px;
+     height: 50px;
+     /* padding-top: 5px; */
+}
+.contact p{
+    padding: 5px;
 }
 
 .project-images {
@@ -82,8 +110,11 @@
     padding-bottom: 30px;
     margin-bottom: 50px;
 }
-.image1 img{
+.project-images img{
     margin-bottom: 50px;
+}
+.image1 img{
+    /* margin-bottom: 50px; */
     border-radius: 10px;
 }
 .image2 img{
@@ -113,7 +144,14 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 50px 0px 50px 100px;
+    padding: 50px 50px 50px 50px;
+    width: 100%;
+    margin-left: 5%;
+
+}
+.writeup{
+    width: 50%;
+    font-size: 20px;
 }
 .words{
     color: white;
@@ -124,23 +162,38 @@ input[id=contactbtn]{
     text-decoration: none;
      border: 2px solid transparent;
      font-weight: bold;
-     padding: 10px 10px;
+     padding: 10px 30px;
      border-radius: 10px;
-     padding-right: 20px; 
-     margin: 0 100% 0 340%;
-     
-     
+     color: #4d9aad;
+     /* margin: 0 50%; */
+     /* padding-right: 20px;  */
+     /* margin: 0 100% 0 340%;    */
 }
+
 input[id=callbtn]{
     background-color: #157293;
     color: white;
     text-decoration: none;
      border: 2px solid transparent;
      font-weight: bold;
-     padding: 10px 10px;
+     padding: 10px 20px;
      border-radius: 10px; 
-     margin: 0 100% 0 270%;  
+     /* margin: 0 50%; */
+     /* margin: 0 100% 0 270%;   */
 }
+
+
+.contact-call{
+    /* margin-left: 70%; */
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* padding-left: 10%; */
+    /* margin-left: 70%; */
+    margin-right: 8%;
+}
+
 /* {
 /* .contact-me1{
     background-color: white;
@@ -150,7 +203,7 @@ input[id=callbtn]{
      /* padding: 10px 10px; */
      /* border-radius: 10px;  */
      /* padding-right: 20px;  */
- */
+ 
 /* 
 .call-me{
     background-color: #157293;
@@ -163,7 +216,7 @@ input[id=callbtn]{
 }  */
 
 .image8{
-    padding: 0 100px;
+    margin-left: 100px;  
 }
 
 .info{
@@ -175,10 +228,12 @@ input[id=callbtn]{
 }
 
 h5{
-    padding: 0 615px;
+    padding: 0 45%;
+    text-align: center;
 }
 h4{
-    padding: 0 556px;
+    padding: 0 40%;
+    text-align: center;
 }
 .brandicon{
     height: 20px;
@@ -186,12 +241,15 @@ h4{
     justify-content: space-between;
     /* color: white; */
 
+
 }
 
 .bellz{
 display: flex;
 justify-content: space-evenly;
-padding: 30px 600px ;
+margin-left: 40% ;
+width: 20%;
+
 
 }
 
@@ -200,5 +258,190 @@ padding: 30px 600px ;
     font-size: x-small;
     padding: 0 46%;
 }
+
+@media screen and (max-width: 1024px){
+    body{
+        max-width: 1024px;
+        
+    }
+
+    .container{
+        width: 100%;
+        padding: 0 50px;
+    }    
+
+    .my-project{
+        /* padding: 0 50px; */
+        width: 40%;
+    }
     
+    .first-image {
+        margin-right: 30px;
+    }
+    .copyright p{
+        /* text-align: center; */
+        padding: 0 45%;
+    }
+
+
+
+ @media screen and (max-width: 768px){
+    body{
+        max-width: 768px;
+    }
+
+    .container{
+        width: 100%;
+        padding: 40px;
+    }
+    .my-project{
+        color: #4d9aad;
+        padding: 0 50px;
+        width: 50%;
+    }
+    
+    .first-image {
+        width: 30%;
+        margin-right: 50px;
+    }
+    .first-image img{
+        width: 250px;
+        height: 250px;
+    } 
+
+    .design{
+        padding: 50px 50px;
+        }
+
+        .contact{
+             padding: 10px 10px;
+        }
+        .enquiry{
+            padding: 50px 0px 50px 50px;
+        }
+        
+        .image8{
+            margin-left: 50px;  
+        }
+        
+        .info{
+            text-align: center;
+        }
+        
+        h5{
+            padding: 0 0px;
+        }
+        h4{
+            padding: 0 0px;
+        }
+        
+
+}
+
+
+  @media screen and (max-width: 414px)
+ {
+    body{
+        max-width: 414px;
+    }
+
+    .container-list{
+         display: none;
+    }
+
+    .ham img {
+            width: 50px;
+            height: 50px;
+            margin-left: 80%;
+    }
+     }
+
+    first-image{
+        max-width: 100%;
+     }
+    
+     .project{
+        width: 100%;
+        display: block;
+        padding-left: 5%;
+    }
+
+    .my-project{
+        color: #4d9aad;
+        padding:0 5%;
+        width: 100%;
+    }
+
+    .first-image {
+        width: 100%;
+        padding: 7%;
+    }
+    .first-image img{
+        width: 300px;
+        height: 300px;
+    
+    } 
+    .design-contact-project{
+        display: block;
+        
+    }
+    .contact{
+        background-color: #157293;
+        color: white;
+         font-weight: bold;
+         padding: 5px 20px;
+         border-radius: 5px;
+         margin: 10% 50% 5% 0;
+         height: 40px;
+    }
+
+    .image7{
+    display: none;
+    }
+    .enquiry{
+        display: block;
+        width: 100%;
+        padding-right: 50px;
+    
+    }
+    .writeup{
+        width: 150%;
+        font-size: 30px;
+        font-weight: bolder;
+        padding-right: 50px;
+    }
+
+    .words{
+        position: relative;
+        right: 30px;
+    }
+   .contact-call p{
+    margin: -20%;
+   }
+   input[id=contactbtn]{
+     padding: 10px 40px;
+     margin-top: 40%;
+   }
+
+   input[id=callbtn]{
+    margin-left: 120%;
+    padding: 10px 40px;
+  }
+
+
+   /* .contact-call p {
+    display: flex;
+    justify-content: space-between;
+   } */
+
+    .image8{
+    display: none;
+    }
+  .copyright p{
+   padding: 0 30%;
+  }
+ }
+   
+ 
+
 
