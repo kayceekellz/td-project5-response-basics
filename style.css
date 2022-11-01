@@ -34,12 +34,14 @@ body{
 .container-list{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
+    margin-left: 150px;
+
 
 }
 .ham img {
     width: 5%;
-    /* display: none; */
+    display: none;
 }
 .project{
     width: 100%;
@@ -270,9 +272,14 @@ width: 20%;
         padding: 0 50px;
     }    
 
+    /* .container-list{
+        padding-right: 10px;
+    } */
+
     .my-project{
-        /* padding: 0 50px; */
-        width: 40%;
+        padding: 0 50px;
+        width: 60%;
+       
     }
     
     .first-image {
@@ -317,11 +324,14 @@ width: 20%;
              padding: 10px 10px;
         }
         .enquiry{
-            padding: 50px 0px 50px 50px;
+            margin: 1%;
+            padding: 50px 0px 40px 60px;
         }
-        
+        .image7{
+            padding: 0 50px; 
+        }
         .image8{
-            margin-left: 50px;  
+            margin-left: 60px;  
         }
         
         .info{
@@ -354,7 +364,6 @@ width: 20%;
             height: 50px;
             margin-left: 80%;
     }
-     }
 
     first-image{
         max-width: 100%;
@@ -388,11 +397,11 @@ width: 20%;
     .contact{
         background-color: #157293;
         color: white;
-         font-weight: bold;
-         padding: 5px 20px;
-         border-radius: 5px;
-         margin: 10% 50% 5% 0;
-         height: 40px;
+        font-weight: bold;
+        padding: 5px 20px;
+        border-radius: 5px;
+        margin: 10% 50% 5% 0;
+        height: 40px;
     }
 
     .image7{
@@ -441,6 +450,7 @@ width: 20%;
    padding: 0 30%;
   }
  }
+}
    
  
 
